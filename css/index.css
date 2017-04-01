@@ -1,0 +1,29 @@
+#bio p{
+	
+	font-size: 2em;
+}
+
+#bio ul{
+	list-style: none;
+}
+
+#bio ul li{
+	
+	font-size: 1.25em;
+}
+
+h1{
+	
+	font-family: 'Poiret One', cursive;
+}
+
+h2{
+	font-family: 'Abel', sans-serif;
+	font-size: 2em;
+}
+
+p{
+	
+	text-indent: 2em;
+	font-size: 1.25em;
+}
