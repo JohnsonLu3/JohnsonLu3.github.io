@@ -1,6 +1,6 @@
 #bio p{
 	
-	font-size: 2em;
+	font-size: 18px;
 }
 
 #bio ul{
@@ -9,7 +9,7 @@
 
 #bio ul li{
 	
-	font-size: 1.25em;
+	font-size: 18px;
 }
 
 h1{
@@ -19,11 +19,11 @@ h1{
 
 h2{
 	font-family: 'Abel', sans-serif;
-	font-size: 2em;
+	font-size: 24px;
 }
 
 p{
 	
-	text-indent: 2em;
-	font-size: 1.25em;
+	text-indent: 12px;
+	font-size: 18px;
 }
