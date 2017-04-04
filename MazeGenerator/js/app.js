@@ -1,7 +1,7 @@
 var cellSize = 20;
 var cols, rows;
-var h = 1280;
-var w = 1280;
+var h = 800;
+var w = 800;
 var grid = [];
 var currentCell;
 var checked = [];
