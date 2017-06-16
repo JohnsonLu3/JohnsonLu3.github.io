@@ -59,3 +59,13 @@ p a{
 	width: 80px;
 	height: 80px;
 }
+
+.langUsed{
+	text-align: center;
+}
+
+.tinyIcon{
+
+	width: 50px;
+	height: 50px;
+}
