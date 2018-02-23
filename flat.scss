@@ -1,8 +1,9 @@
+/*!
+* Flat Pingendo template (https://templates.pingendo.com)
+* Based on: Bootstrap v4.0.0 (https://getbootstrap.com)
+* Copyright 2014-2018 Pingendo (https://pingendo.com)
+*/
 
-; 
-@import url('https://fonts.googleapis.com/css?family=Roboto'); 
-@import url('https://fonts.googleapis.com/css?family=rrrrrasdhttps://fonts.google.com/specimen/Robotohttps://fonts.google.com/specimen/Roboto'); 
-@import url('https://fonts.googleapis.com/css?family=rrrrrasdhttps://fonts.google.com/specimen/Roboto'); 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
   
@@ -22,10 +23,10 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #8a2a2a,
+  primary: #FF473B,
   secondary: #00DB99,
   light: #f3f3f3,
-  dark: #2d2d2d,
+  dark: #151515,
   info: #c99800,
   success: #28a745,
   warning: #ffc107,
@@ -35,8 +36,7 @@ $theme-colors: (
 $body-bg: white;
 $body-color: #333;
 $body-color-inverse: invert($body-color) !default;
-$link-color: #f3f3f3;
-
+$link-color: #FF473B;
 
 
 // Fonts
@@ -74,27 +74,13 @@ $carousel-indicator-height:           6px !default;
 $form-group-margin-bottom:       0rem;
 
 
-$border-radius: 1rem;
-
+$border-radius: 0.6rem;
 $border-radius-lg: $border-radius * 1.2;
-
 $border-radius-sm: $border-radius * .8;
 
 
+@import 'bootstrap-4.0.0';
 
-$font-family-base: Roboto;
-
-$headings-font-family: Roboto;
-
-
-@import 'bootstrap-4.0.0-beta.1';
-
-// fix yiq for backgrounds
-@each $name, $value in $theme-colors {
-  .bg-#{$name} {
-    @include color-yiq($value);
-  }
-}
 
 html,body {
    height:100%;
@@ -102,7 +88,6 @@ html,body {
 
 body > * {
   background-position: center;
-  overflow:hidden;
 }
 
 .section-primary {
@@ -236,31 +221,4 @@ body > * {
     opacity:0;
     left:5%;
   }
-}
-
-.smallLeft-Padding {
-	left : 2%;
-}
-
-.resume {
-  width : 15%;
-  margin-left : 2%;
-  display : inline;
-}
-
-
-.circle {
-	border-radius: 100%;
-}
-
-.footerRight {
-	padding-left: 35%;
-}
-
-.imagebanner{
-	margin-top: 0px;
-}
-
-.bio {
-	font-size: 1.25em;
 }
