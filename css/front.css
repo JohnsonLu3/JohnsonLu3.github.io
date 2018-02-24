@@ -6200,6 +6200,9 @@ html, body {
   width: 12%;
   top: 10%; }
 
+.langIcon {
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
 .projDesc {
-  text-indent: 2em; }
-.suc{ position: fixed; left: 78%; float: right; width: 250px; height: 250px;}
+  text-indent: 3.5em; }
