@@ -4,8 +4,6 @@ import {bindActionCreators} from 'redux';
 
 class Skills extends Component{
     skillSection(skill){
-        console.log(skill.id);
-        console.log(skill.ico);
         return(
              <div className="col-md-4 my-0">
               <div className="row mb-3">
