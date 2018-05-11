@@ -22,7 +22,7 @@ const Projects = [
         Section: Sect.WEBAPP,
         Description: "Created a restful web app in a team of four. The site was built in Java using the spring framework and was integrated with a mySQL 5.7 database. The app’s purpose was to analysis a state and it’s districts to determine if the state was gerrymandered.",
         Img: [
-            ""
+            "GerryMandering.png"
         ],
         SourceLink: "https://github.com/JohnsonLu3/Gerrymandering-Analysis",
         Visit: null,
@@ -45,11 +45,12 @@ const Projects = [
 
     {
         id: "17V7b9f5ltkxvqcbAyT5",
-        Name: "CineApex",
+        Name: "CinApex",
         Section: Sect.WEBAPP,
         Description: "Group project, where we developed a database for a ‘movie rental company’. We used MySql for the database. Website was designed with Java along with technologies like JDBC were used for the backend of the website.",
         Img: [
-
+            "CinApex.png",
+            "CinApex2.png"
         ],
         SourceLink: "https://github.com/JohnsonLu3/CinApex",
         Visit: null,
@@ -72,7 +73,7 @@ const Projects = [
         Section: Sect.WEBAPP,
         Description: "",
         Img: [
-
+            "ytsf.png"
         ],
         SourceLink: null,
         Visit: "http://www.ytspoilerfree.com/",
@@ -92,7 +93,7 @@ const Projects = [
         Section: Sect.WEBAPP,
         Description: "",
         Img: [
-
+            "NoteSpace.jpg",
         ],
         SourceLink: "https://github.com/JohnsonLu3/NoteSpace",
         Visit: "https://johnsonlu3.github.io/NoteSpace/src/index.html",
@@ -111,11 +112,11 @@ const Projects = [
     },
     {
         id: "5RdIUmyV1CBmK83JQS1p",
-        Name: "",
+        Name: "Maze Generator",
         Section: Sect.SOFTWARE,
         Description: "Backtracing algorithm that generates a maze in java script using the P5.js library.",
         Img: [
-
+            "MazeGenerator.png"
         ],
         SourceLink: "https://github.com/JohnsonLu3/MazeGenerator",
         Visit: "https://johnsonlu3.github.io/MazeGenerator/",
@@ -135,7 +136,7 @@ const Projects = [
         Section: Sect.SOFTWARE,
         Description: "A classic game of snake but played by a Neural Network. Created in processing with Java. Both the game and neural network are made from scratch.",
         Img: [
-
+            "SmartSnake.png"
         ],
         SourceLink: "https://github.com/JohnsonLu3/smartSnake",
         Visit: null,
@@ -157,7 +158,7 @@ const Projects = [
         Section: Sect.GAME,
         Description: "Video game developed in a team of 3. We used the phaser js library.",
         Img: [
-
+            "PhaseShifter.png"
         ],
         SourceLink: "https://github.com/JohnsonLu3/PhaseShifter",
         Visit: "https://johnsonlu3.github.io/PhaseShifter/",
@@ -176,11 +177,11 @@ const Projects = [
     },
     {
         id: "HQrIw0zQLg42M7UMk275",
-        Name: "",
+        Name: "Text Editor",
         Section: Sect.SOFTWARE,
         Description: "A basic Text Editor app made in C++ using the QT Framework. Supports many of the basic functionalities of a text editor. Such as, cut, copy, paste and undo/redo.",
         Img: [
-
+            "TextEditor.jpg"
         ],
         SourceLink: "https://github.com/JohnsonLu3/TextEditor",
         Visit: null,
@@ -197,11 +198,12 @@ const Projects = [
     },
     {
         id: "Lm9BmDLOfoqjEIPuh25d",
-        Name: "Specturm Analyer",
+        Name: "Specturm Analyzer",
         Section: Sect.SOFTWARE,
-        Description: "A audio spectrum analyer made in processing. This was made out of boredom and it was a real fun quick project to make.",
+        Description: "A audio spectrum Analyzer made in processing. This was made out of boredom and it was a real fun quick project to make.",
         Img: [
-
+            "Analyzer.png",
+            "Analyzer2.png"
         ],
         SourceLink: "https://github.com/JohnsonLu3/SpectrumAnalyzer",
         Visit: null,
@@ -222,7 +224,8 @@ const Projects = [
         Section: Sect.GAME,
         Description: "Rock, Paper, Scissors as a fighting game. Created with a friend. I handle coding and he handled art assets.",
         Img: [
-
+            "SRPSFD.png",
+            "SRPSFD2.png"
         ],
         SourceLink: "https://github.com/JohnsonLu3/SuperRPSFightersDeluxe",
         Visit: null,
