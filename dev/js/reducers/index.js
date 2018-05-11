@@ -1,5 +1,4 @@
 import {combineReducers} from 'redux';
-// import notes from './reducer-notes';
 
 /*
  * We combine all reducers into a single object before updated data is dispatched (sent) to store
@@ -7,7 +6,6 @@ import {combineReducers} from 'redux';
  * */
 
 const allReducers = combineReducers({
-    // notes
 });
 
 export default allReducers

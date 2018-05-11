@@ -11,9 +11,17 @@ import App from './components/App';
 
 
 //data
-// import notes from './data/data-notes';
+import Bio from './data/Bio-Data';
+import Projects from './data/Projects-Data';
+import Skills from './data/Skills-Data';
+import WebPages from './data/WebPages-Data';
+
+
 const defualtState = {
-    // notes
+    Bio,
+    Projects,
+    Skills,
+    WebPages
 }
 
 const logger = createLogger();

@@ -1,15 +1,17 @@
 import React, {Component} from 'react';
-import Cover from "../../img/cover.png";
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
 
 class Bio extends Component{
     render(){
+        var Bio = this.props.Bio;
         return(
-            <div className="py-5 text-center" style={{backgroundImage: 'url(${Cover})'}}>
+            <div className="py-5 text-center" style={{backgroundImage: 'url(../../img/cover.png)'}}>
                 <div className="container py-5">
                     
                     <div className="row">
                         <div className="col-md-12">
-                            <h1 className="display-3 mb-4 text-white">Johnson Lu</h1>
+                            <h1 className="display-3 mb-4 text-white">{Bio.Name}</h1>
                         </div>
                     </div>
                     
@@ -20,14 +22,14 @@ class Bio extends Component{
                         <div className="col-md-6 py-5">
                             <div className="row">
                                 <div className="col-md-12 py-1">
-                                <p className="text-white bio text-left">Full stack developer, graduated at Suny Stony Brook with a Bachelor of Science in Fall 2017. My interest includes system and web security, as well as machine Learning. I'm currently trying to create a snake game that plays itself using
-                                    a shallow neural network. In my free time I enjoy making mock websites, prototype programs and games.</p>
+                                <p className="text-white bio text-left">{Bio.Desc}</p>
                                 </div>
                             </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-12">
-                            <button className="btn btn-lg btn-primary mx-1" data-target="#modalContact" data-toggle="modal">Contact</button>
+                            
+                            <div className="row">
+                                <div className="col-md-12">
+                                <button className="btn btn-lg btn-primary mx-1" data-target="#modalContact" data-toggle="modal">Contact</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -36,4 +38,20 @@ class Bio extends Component{
         );
     }
 }
-export default Bio;
+// Get apps state and pass it as props to notes
+//      > whenever state changes, the notes will automatically re-render
+function mapStateToProps(state) {
+    return {
+        Bio: state.Bio,
+    };
+}
+
+// Actions
+function matchDispatchToProps(dispatch){
+    return bindActionCreators(
+        {
+        },
+         dispatch);
+}
+
+export default connect(mapStateToProps,matchDispatchToProps)(Bio);
