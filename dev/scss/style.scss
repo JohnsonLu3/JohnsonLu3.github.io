@@ -6187,6 +6187,7 @@ html, body {
    font-size: 3em;
 }
 
+
 .sticky {
   position: fixed;
   z-index: 1;
@@ -6197,7 +6198,15 @@ html, body {
   height: 10em; }
 
 .bio {
-  font-size: 1.05em; }
+  font-size: 1.5em; 
+}
+
+.BioCover{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .center {
   display: flex;

@@ -6,12 +6,12 @@ class Bio extends Component{
     render(){
         let Bio = this.props.Bio;
         return(
-            <div className="py-5 text-center" style={{backgroundImage: 'url(../../img/cover.png)'}}>
+            <div className="py-5 text-center BioCover" style={{backgroundImage: 'url(../../img/cover.png)' }}>
                 <div className="container py-5">
                     
                     <div className="row">
                         <div className="col-md-12">
-                            <h1 className="display-3 mb-4 text-white">{Bio.Name}</h1>
+                            <h1 className="display-2 mb-4 text-white">{Bio.Name}</h1>
                         </div>
                     </div>
                     
