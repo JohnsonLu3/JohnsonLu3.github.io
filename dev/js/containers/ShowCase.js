@@ -43,17 +43,28 @@ class ShowCase extends Component{
         let projects = this.props.Projects;
 
         return(
-            <div className="text-dark py-3" id="Projects">
-                <div className="container">
-                    <div className="row py-3">
-                        {
-                            projects.map((project, i) =>{
-                                if(project.ShowCase){
-                                    return(this.projectSection(project, i));
-                                }
-                            })
-                        }
+            <div>
+                <div className="text-dark py-3  bg-light" id="Projects">
+                    <div className="container">
+                        <div className="row py-3">
+                            {
+                                projects.map((project, i) =>{
+                                    if(project.ShowCase){
+                                        return(this.projectSection(project, i));
+                                    }
+                                })
+                            }
+                        </div>
                     </div>
+                </div>
+            
+                <div className="bg-light">
+                    <div className="row">
+                        <div className="col-md-12 justify-content-center d-flex">
+                            <a className="btn btn-info text-dark btn-lg" href="projects.html">More Projects</a>
+                        </div>
+                    </div>
+                    <br />
                 </div>
             </div>
         );
