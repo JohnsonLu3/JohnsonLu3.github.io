@@ -4,8 +4,7 @@ class Header extends Component{
     render(){
         return(
             <div>
-              <nav className="navbar navbar-expand-md bg-primary navbar-dark sticky">
-                <div className="container">
+              <nav className="navbar navbar-expand-md bg-primary navbar-dark sticky" id="myNav">
                 <a className="navbar-brand" href="index.html"><b>Johnson Lu</b></a>
                 <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon"></span> </button>
                 <div className="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
@@ -26,7 +25,6 @@ class Header extends Component{
                         <a className="nav-link" href="https://github.com/JohnsonLu3" target="_blank"><i className="fa d-inline fa-lg fa-git-square"></i>&nbsp;Github</a>
                     </li>
                     </ul>
-                </div>
                 </div>
             </nav>
             </div>

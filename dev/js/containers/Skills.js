@@ -5,13 +5,15 @@ import {bindActionCreators} from 'redux';
 class Skills extends Component{
     skillSection(skill){
         return(
-             <div className="col-md-4 my-0">
-              <div className="row mb-3">
-                <div className="text-center col-2"><i className={skill.ico + " d-block mx-auto skillIco"}></i></div>
-                <div className="align-self-center col-10">
-                  <h5 className="text-secondary"><b className="text-primary">{skill.id}</b></h5>
+             <div className="col-md-4">
+                <div className="row mb-3">
+                    <div className="text-center col-2">
+                        <i className={skill.ico + " d-block mx-auto skillIco"}></i>
+                    </div>
+                    <div className="align-self-center col-10">
+                        <h5 className="text-secondary"><b className="text-primary">{skill.id}</b></h5>
+                    </div>
                 </div>
-              </div>
             </div>
         );
     }
