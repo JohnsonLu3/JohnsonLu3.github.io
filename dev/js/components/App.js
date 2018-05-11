@@ -11,6 +11,7 @@ const App = () => (
         <Bio />
         <br />
         <Skills />
+        <br />
         <Footer />
     </div>
 );
