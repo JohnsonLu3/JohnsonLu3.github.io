@@ -1,5 +1,4 @@
-const skills = [
-
+const Skills = [
     {
         id: "HTML",
         ico:  "devicon-html5-plain"
@@ -23,6 +22,11 @@ const skills = [
     {
         id: "REACT",
         ico:  "devicon-react-original"
+    },
+
+    {
+        id: "WEBPACK",
+        ico: "devicon-webpack-plain"
     },
     
     {
@@ -60,6 +64,10 @@ const skills = [
         ico:  "devicon-linux-plain"
     },
 
+    {
+        id: "VIM",
+        ico : "devicon-vim-plain"
+    },
 
     {
         id: "FOUNDATION",
@@ -73,11 +81,12 @@ const skills = [
 
     {
         id: "AWS",
-        ico: "devicon-amazonwebservices-plain-wordmark"
+        ico: "devicon-amazonwebservices-plain"
     },
 
     {
-        id: "ARDUNIO",
-        ico: "fas fa-microchip"
+        id: "ARDUINO",
+        ico: "fa fa-microchip"
     }
 ]
+export default Skills;

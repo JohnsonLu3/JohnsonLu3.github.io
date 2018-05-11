@@ -4,7 +4,7 @@ import {bindActionCreators} from 'redux';
 
 class Bio extends Component{
     render(){
-        var Bio = this.props.Bio;
+        let Bio = this.props.Bio;
         return(
             <div className="py-5 text-center" style={{backgroundImage: 'url(../../img/cover.png)'}}>
                 <div className="container py-5">
