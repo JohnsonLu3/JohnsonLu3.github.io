@@ -6102,9 +6102,11 @@ html, body {
   height: 100%; }
 
 .cover {
-  min-height: 100%;
   display: flex;
-  align-items: center; }
+  align-items: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
 
 .bg-gradient {
   overflow: hidden;
