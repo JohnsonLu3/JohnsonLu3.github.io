@@ -5,6 +5,7 @@ import {bindActionCreators} from 'redux';
 class Bio extends Component{
     render(){
         let Bio = this.props.Bio;
+        console.log(Bio);
         return(
             <div className="py-5 text-center BioCover" style={{backgroundImage: 'url(../../img/cover.png)' }}>
                 <div className="container py-5">
@@ -38,8 +39,7 @@ class Bio extends Component{
         );
     }
 }
-// Get apps state and pass it as props to notes
-//      > whenever state changes, the notes will automatically re-render
+
 function mapStateToProps(state) {
     return {
         Bio: state.Bio,

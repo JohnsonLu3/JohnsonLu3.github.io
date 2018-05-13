@@ -6,25 +6,27 @@ class ShowCase extends Component{
 
     projectSrcButtons(project){
         if(project.SourceLink != null){
-            return(<a className="btn btn-primary" href={project.SourceLink} target="_blank">View Source</a>);
+            return(<button className="btn btn-primary" href={project.SourceLink} target="_blank">View Source</button>);
         }else{
-            return(<a className="btn btn-primary" disabled target="_blank">View Source</a>);
+            return(<button className="btn btn-primary" target="_blank" disabled>View Source</button>);
         }            
     }
 
     projectViewButtons(project){
         if(project.Visit != null){
-            return(<a className="btn btn-secondary" href="" target="_blank">&nbsp;View Live&nbsp;</a>);
+            return(<button className="btn btn-secondary" href="" target="_blank">&nbsp;View Live&nbsp;</button>);
         }else{
-            return(<a className="btn btn-secondary" disabled target="_blank">&nbsp;View Live&nbsp;</a>);
+            return(<button className="btn btn-secondary" target="_blank" disabled>&nbsp;View Live&nbsp;</button>);
         }
     }
 
     projectSection(project, i){
         return(
             <div className="col-md-4 my-3">
-                <img className="img-fluid d-block mb-4 img-thumbnail" src={"../../img/projects/" + project.Img[0]} />
-                <h5 className="text-dark"><b>{project.Name}</b></h5>
+                <div className="ShowCaseImage"> 
+                    <img className="img-fluid d-block mb-4 img-thumbnail" src={"../../img/projects/" + project.Img[0]} /> 
+                </div>
+                <h3 className="text-dark"><a href={"/projects/#" + project.Name}>{project.Name}</a></h3>
                 <p className="mt-1 projectBio"> {project.Description} </p>
                 <div className="row py-3">
                     <div className="col-md-6">

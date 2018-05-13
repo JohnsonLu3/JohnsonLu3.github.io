@@ -6201,10 +6201,6 @@ html, body {
   width: 100%;
 }
 
-.projectBio {
-  height: 10em; 
-}
-
 .bio {
   font-size: 1.5em; 
 }
@@ -6232,3 +6228,15 @@ html, body {
 
 .projDesc {
   text-indent: 3.5em; }
+
+.ShowCaseImage img{
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectBio {
+  height: 8em; 
+}
+

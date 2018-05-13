@@ -8,7 +8,7 @@ import Contact from '../containers/Contact';
 
 require('../../scss/style.scss');
 
-const App = () => (
+const Main = () => (
     <div>
         <Header />
         <Bio />
@@ -25,4 +25,4 @@ const App = () => (
     </div>
 );
 
-export default App;
+export default Main;

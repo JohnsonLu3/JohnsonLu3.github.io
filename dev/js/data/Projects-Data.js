@@ -16,33 +16,30 @@ const Sect ={
 }
 
 const Projects = [
+
     {
-        id: "JVFteLyrIZhGob4zCD36",
-        Name: "Gerry Mandering Analyer",
+        id: "gnaASWvbFSG9g9t5YIkm",
+        Name: "NoteSpace",
         Section: Sect.WEBAPP,
-        Description: "Created a restful web app in a team of four. The site was built in Java using the spring framework and was integrated with a mySQL 5.7 database. The app’s purpose was to analysis a state and it’s districts to determine if the state was gerrymandered.",
+        Description: "An Online Stick Note Board. Create new Sticky Notes or edit old ones. You can even have custom Stick Note colors. This project was made in React.js with Redux",
         Img: [
-            "GerryMandering.png"
+            "NoteSpace.jpg",
         ],
-        SourceLink: "https://github.com/JohnsonLu3/Gerrymandering-Analysis",
-        Visit: null,
+        SourceLink: "https://github.com/JohnsonLu3/NoteSpace",
+        Visit: "https://johnsonlu3.github.io/NoteSpace/src/index.html",
         ShowCase: true,
         languages:[
-            Lang.JAVA,
-            Lang.MYSQL,
-            Lang.PYTHON
+            Lang.JS,
+            Lang.REACT
         ],
         Details:[
-            "Restful website with frontend and backend. Developed in a team of three.",
-            "Used Agile development process.",
-            "Backend developed with Java Spring Framework and frontend developed with Bootstrap.",
-            "MySQL 5.7, hosted on AWS DB, was used to hold large amounts of geospatial data.",
-            "Python was used to parse and reduce size of data by 75% while retaining accuracy of data.",
-            "Turned into a research project at Stonybrook for Spring 2018.",
+            'Website version of a sticky note board',
+            'Create new sticky notes or edit old ones',
+            'Freedom to choose what color note to post',
+            'Created in React.js with Redux'
         ]
 
     },
-
     {
         id: "17V7b9f5ltkxvqcbAyT5",
         Name: "CinApex",
@@ -87,26 +84,29 @@ const Projects = [
         ]
 
     },
-        {
-        id: "gnaASWvbFSG9g9t5YIkm",
-        Name: "NoteSpace",
+    {
+        id: "JVFteLyrIZhGob4zCD36",
+        Name: "Gerry Mandering Analyer",
         Section: Sect.WEBAPP,
-        Description: "An Online Stick Note Board. Create new Sticky Notes or edit old ones. You can even have custom Stick Note colors. This project was made in React.js with Redux",
+        Description: "Created a restful web app in a team of four. The site was built in Java using the spring framework and was integrated with a mySQL 5.7 database. The app’s purpose was to analysis a state and it’s districts to determine if the state was gerrymandered.",
         Img: [
-            "NoteSpace.jpg",
+            "GerryMandering.png"
         ],
-        SourceLink: "https://github.com/JohnsonLu3/NoteSpace",
-        Visit: "https://johnsonlu3.github.io/NoteSpace/src/index.html",
+        SourceLink: "https://github.com/JohnsonLu3/Gerrymandering-Analysis",
+        Visit: null,
         ShowCase: true,
         languages:[
-            Lang.JS,
-            Lang.REACT
+            Lang.JAVA,
+            Lang.MYSQL,
+            Lang.PYTHON
         ],
         Details:[
-            'Website version of a sticky note board',
-            'Create new sticky notes or edit old ones',
-            'Freedom to choose what color note to post',
-            'Created in React.js with Redux'
+            "Restful website with frontend and backend. Developed in a team of three.",
+            "Used Agile development process.",
+            "Backend developed with Java Spring Framework and frontend developed with Bootstrap.",
+            "MySQL 5.7, hosted on AWS DB, was used to hold large amounts of geospatial data.",
+            "Python was used to parse and reduce size of data by 75% while retaining accuracy of data.",
+            "Turned into a research project at Stonybrook for Spring 2018.",
         ]
 
     },
