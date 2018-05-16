@@ -5,9 +5,7 @@ module.exports = {
     devServer: {
         inline: true,
         contentBase: './src',
-        historyApiFallback:{
-            index:'build/index.html'
-        },
+        historyApiFallback: true,
         port: 3000
     },
     devtool: 'cheap-module-eval-source-map',

@@ -1,14 +1,12 @@
 import React from 'react';
-import Header from '../../containers/Header';
-import Footer from '../../containers/Footer';
-import Contact from '../../containers/Contact';
+import SubMenu from '../../containers/SubMenu';
+import ProjectPage from '../../containers/Projects';
 
 const Projects = () => (
     <div>
-        <Header />
-
-        <Footer />
+        <SubMenu />
+        <Projects />
    </div>
 );
 
-export default Projects;
+export default ProjectPage;

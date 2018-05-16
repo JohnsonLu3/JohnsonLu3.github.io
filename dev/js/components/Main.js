@@ -3,9 +3,6 @@ import Bio from '../containers/Bio';
 import Skills from '../containers/Skills';
 import ShowCase from '../containers/ShowCase';
 
-
-require('../../scss/style.scss');
-
 const Main = () => (
     <div>
         <Bio />
