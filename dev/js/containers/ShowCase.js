@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
+import { Link } from 'react-router';
+
 
 class ShowCase extends Component{
 
@@ -63,7 +65,7 @@ class ShowCase extends Component{
                 <div className="bg-light">
                     <div className="row">
                         <div className="col-md-12 justify-content-center d-flex">
-                            <a className="btn btn-info text-dark btn-lg" href="Projects">More Projects</a>
+                            <Link to="/Projects"className="btn btn-info text-dark btn-lg">More Projects</Link>
                         </div>
                     </div>
                     <br />
