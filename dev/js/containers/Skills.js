@@ -43,7 +43,7 @@ class Skills extends Component{
 //      > whenever state changes, the notes will automatically re-render
 function mapStateToProps(state) {
     return {
-        Skills: state.Skills
+        Skills: state.SkillsData
     };
 }
 

@@ -8,12 +8,14 @@ import promise from 'redux-promise';
 import { createLogger } from 'redux-logger';
 import allReducers from './reducers';
 import Main from './components/';
+import Projects from './components/projects';
+
 
 //data
-import Bio from './data/Bio-Data';
-import Projects from './data/Projects-Data';
-import Skills from './data/Skills-Data';
-import WebPages from './data/WebPages-Data';
+import BioData from './data/Bio-Data';
+import ProjectsData from './data/Projects-Data';
+import SkillsData from './data/Skills-Data';
+import WebPagesData from './data/WebPages-Data';
 
 //import router
 import { Router, Route, IndexRoute, browserHistory} from 'react-router';
@@ -22,28 +24,26 @@ import { syncHistoryWithStore } from 'react-router-redux';
 const logger = createLogger();
 
 const defualtState = {
-    Bio,
-    Projects,
-    Skills,
-    WebPages
+    BioData,
+    ProjectsData,
+    SkillsData,
+    WebPagesData
 }
 
 const store = createStore(
     allReducers,
     defualtState
 );
-/*
-const history = syncHistoryWithStore(browserHistory, store);
 
-const router = (
-    <Router history={history}>
-        <Route path = "/" components={Main} />
-    </Router>
-)*/
+const routes =(
+    <Route path = "/" component={Main}>
+        <Route path="projects" component={Projects} />
+    </Route>
+    );
 
 ReactDOM.render(
     <Provider store={store}>
-        <Main />
+        <Router history={browserHistory} routes = {routes}/>
     </Provider>,
     document.getElementById('root')
 );

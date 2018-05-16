@@ -50,7 +50,7 @@ class Contact extends Component{
 
 function mapStateToProps(state) {
     return {
-        Bio: state.Bio
+        Bio: state.BioData
     };
 }
 

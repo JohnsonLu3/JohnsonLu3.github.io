@@ -75,7 +75,7 @@ class ShowCase extends Component{
 
 function mapStateToProps(state) {
     return {
-        Projects: state.Projects
+        Projects: state.ProjectsData
     };
 }
 
