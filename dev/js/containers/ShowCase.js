@@ -6,7 +6,7 @@ class ShowCase extends Component{
 
     projectSrcButtons(project){
         if(project.SourceLink != null){
-            return(<button className="btn btn-primary" href={project.SourceLink} target="_blank">View Source</button>);
+            return(<a href={project.SourceLink} target="_blank"><button className="btn btn-primary">View Source</button></a>);
         }else{
             return(<button className="btn btn-primary" target="_blank" disabled>View Source</button>);
         }            
@@ -14,7 +14,7 @@ class ShowCase extends Component{
 
     projectViewButtons(project){
         if(project.Visit != null){
-            return(<button className="btn btn-secondary" href="" target="_blank">&nbsp;View Live&nbsp;</button>);
+            return(<a href={project.Visit} target="_blank"><button className="btn btn-secondary">&nbsp;View Live&nbsp;</button></a>);
         }else{
             return(<button className="btn btn-secondary" target="_blank" disabled>&nbsp;View Live&nbsp;</button>);
         }
@@ -63,7 +63,7 @@ class ShowCase extends Component{
                 <div className="bg-light">
                     <div className="row">
                         <div className="col-md-12 justify-content-center d-flex">
-                            <a className="btn btn-info text-dark btn-lg" href="projects.html">More Projects</a>
+                            <a className="btn btn-info text-dark btn-lg" href="Projects">More Projects</a>
                         </div>
                     </div>
                     <br />

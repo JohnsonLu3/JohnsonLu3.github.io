@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '../containers/Header';
-import Footer from '../containers/Footer';
+import Header from '../../containers/Header';
+import Footer from '../../containers/Footer';
 
-require('../../scss/style.scss');
+require('../../../scss/style.scss');
 
 const Projects = () => (
     <div>

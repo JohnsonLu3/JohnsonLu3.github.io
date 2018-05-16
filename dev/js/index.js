@@ -8,7 +8,7 @@ import promise from 'redux-promise';
 import { createLogger } from 'redux-logger';
 import allReducers from './reducers';
 import Main from './components/';
-import Projects from './components/projects';
+import Projects from './components/Projects/';
 
 
 //data
@@ -37,7 +37,7 @@ const store = createStore(
 
 const routes =(
     <Route path = "/" component={Main}>
-        <Route path="projects" component={Projects} />
+        <Route path="Projects" component={Projects} />
     </Route>
     );
 
