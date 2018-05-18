@@ -3,9 +3,9 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
 class Skills extends Component{
-    skillSection(skill){
+    skillSection(skill, i){
         return(
-             <div className="col-md-4">
+             <div className="col-md-4" key={i}>
                 <div className="row mb-3">
                     <div className="text-center col-2">
                         <i className={skill.ico + " d-block mx-auto skillIco"}></i>
@@ -29,7 +29,7 @@ class Skills extends Component{
                             <p className="lead">Programming related skills that I have gained over the years</p>
                             <div className="row text-left mt-5">
                                 {Skills.map((skill, i) =>{
-                                    return(this.skillSection(skill));
+                                    return(this.skillSection(skill, i));
                                 })}
 
                             </div>

@@ -16,7 +16,8 @@ class Footer extends Component{
                             <a href="https://www.linkedin.com/in/johlu1/" target="_blank"><i className="fa fa-fw fa-3x text-white fa-linkedin-square"></i></a>
                         </div>
                         <div className="col-4 col-md-1 align-self-center">
-                            <a data-target="#modalContact" data-toggle="modal"><i className="fa fa-fw text-white fa-3x fa-envelope-square"></i></a>
+                            {/*<a data-target="#modalContact" data-toggle="modal"><i className="fa fa-fw text-white fa-3x fa-envelope-square"></i></a>*/}
+                            <a href="mailto:JohnsonLu404@gmail.com"><i className="fa fa-fw text-white fa-3x fa-envelope-square"></i></a>
                         </div>
                         </div>
                         <div className="row">

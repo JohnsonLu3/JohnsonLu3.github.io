@@ -28,7 +28,7 @@ class Bio extends Component{
                             
                             <div className="row">
                                 <div className="col-md-12">
-                                <button className="btn btn-lg btn-primary mx-1" data-target="#modalContact" data-toggle="modal">Contact</button>
+                                {/*<button className="btn btn-lg btn-primary mx-1" data-target="#modalContact" data-toggle="modal">Contact</button>*/}
                                 </div>
                             </div>
                         </div>
