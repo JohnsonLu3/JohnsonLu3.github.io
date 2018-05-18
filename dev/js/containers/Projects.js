@@ -4,6 +4,31 @@ import {bindActionCreators} from 'redux';
 
 class Projects extends Component{
 
+    renderLink(proj){
+        if(proj.SourceLink != null){
+            return(
+                <a href= {proj.SourceLink} target="_blank">
+                    <h1 className="">{proj.Name}</h1>
+                </a>
+            );
+        }else{
+            return(
+                <a href= {proj.Visit} target="_blank">
+                    <h1 className="">{proj.Name}</h1>
+                </a>
+            );
+        }
+    }
+
+    renderDetails(proj){
+
+    }
+
+
+    renderLang(proj){
+
+    }
+
     renderProjectView(proj){
         return(
             <div className="py-5">
@@ -12,9 +37,7 @@ class Projects extends Component{
                         <div className="col-md-12">
                             <div className="row">
                                 <div className="col-md-12">
-                                    <a href= {proj.SourceLink} target="_blank">
-                                        <h1 className="">{proj.Name}</h1>
-                                    </a>
+                                    {this.renderLink(proj)}
                                 </div>
                             </div>
                         <div className="row">
@@ -30,7 +53,7 @@ class Projects extends Component{
                             </div>
                             <div className="col-md-6">
                                 <div>
-                                    <img className="d-block img-fluid w-100" src={"./img/projects/" + proj.Img} /> 
+                                    <img className="d-block img-fluid w-100" src={"./img/projects/" + proj.Img[0]} /> 
                                 </div>
                             </div>
                         </div>
