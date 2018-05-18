@@ -1,11 +1,11 @@
 const Lang ={
-    JAVA : "",
-    PYTHON : "",
-    MYSQL : "",
-    REACT : "",
-    JS : "",
-    CPP : "",
-    CSHARP : ""
+    JAVA : "devicon-java-plain",
+    PYTHON : "devicon-python-plain",
+    MYSQL : "devicon-mysql-plain",
+    REACT : "devicon-react-original",
+    JS : "devicon-javascript-plain",
+    CPP : "devicon-cplusplus-plain",
+    CSHARP : "devicon-csharp-plain"
 }
 
 const Sect ={

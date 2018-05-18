@@ -6222,9 +6222,14 @@ html, body {
   width: 12%;
   top: 10%; }
 
+.langBar{
+  padding: 1em;
+}
+
 .langIcon {
-  padding-top: 1em;
-  padding-bottom: 1em; }
+  padding: .5em;
+  font-size: 3em;  
+}
 
 .projDesc {
   text-indent: 3.5em; }

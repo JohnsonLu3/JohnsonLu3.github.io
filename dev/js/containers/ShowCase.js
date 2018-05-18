@@ -22,7 +22,7 @@ class ShowCase extends Component{
         }
     }
 
-    projectSection(project, i){
+    projectSection(project){
         return(
             <div className="col-md-4 my-3">
                 <div className="ShowCaseImage"> 
@@ -52,9 +52,9 @@ class ShowCase extends Component{
                     <div className="container">
                         <div className="row py-3">
                             {
-                                projects.map((project, i) =>{
+                                projects.map((project) =>{
                                     if(project.ShowCase){
-                                        return(this.projectSection(project, i));
+                                        return(this.projectSection(project));
                                     }
                                 })
                             }

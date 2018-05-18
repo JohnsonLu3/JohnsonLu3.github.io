@@ -21,12 +21,24 @@ class Projects extends Component{
     }
 
     renderDetails(proj){
-
+        return(
+            proj.Details.map((detail)=>{
+                return(
+                    <p>{detail}</p>
+                );
+            })
+        );
     }
 
 
     renderLang(proj){
-
+        return(
+            proj.languages.map((lang)=>{
+                return(
+                    <div className=""><i className={"langIcon " + lang}></i></div>
+                );
+            })
+        );
     }
 
     renderProjectView(proj){
@@ -42,12 +54,12 @@ class Projects extends Component{
                             </div>
                         <div className="row">
                             <div className="col-md-6">
-                                <div className="row langIcon">
-                                    <div className="col-md-4 d-flex"><i className="d-block mx-auto fa fa-3x devicon-java-plain d-flex"></i></div>
+                                <div className="row langBar">
+                                    {this.renderLang(proj)}
                                 </div>
                                 <div className="row">
                                     <div className="col-md-12 projDetails">
-                                        
+                                        {this.renderDetails(proj)}
                                     </div>
                                 </div>
                             </div>
