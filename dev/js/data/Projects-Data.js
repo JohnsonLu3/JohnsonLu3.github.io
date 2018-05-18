@@ -5,7 +5,9 @@ const Lang ={
     REACT : "devicon-react-original",
     JS : "devicon-javascript-plain",
     CPP : "devicon-cplusplus-plain",
-    CSHARP : "devicon-csharp-plain"
+    CSHARP : "devicon-csharp-plain",
+    JQ : "devicon-jquery-plain",
+    AWS: "devicon-amazonwebservices-original"
 }
 
 const Sect ={
@@ -53,7 +55,9 @@ const Projects = [
         Visit: null,
         ShowCase: true,
         languages:[
-            Lang.JAVA
+            Lang.JAVA,
+            Lang.JS,
+            Lang.JQ
         ],
         Details:[
             'Mock website that acted as a movie rental service.',
@@ -76,7 +80,10 @@ const Projects = [
         Visit: "http://www.ytspoilerfree.com/",
         ShowCase: true,
         languages:[
-            Lang.JAVA
+            Lang.JAVA,
+            Lang.JS,
+            Lang.JQ,
+            Lang.AWS
         ],
         Details:[
             'Restful website with frontend and backend. Developed by myself',
@@ -98,7 +105,9 @@ const Projects = [
         languages:[
             Lang.JAVA,
             Lang.MYSQL,
-            Lang.PYTHON
+            Lang.PYTHON,
+            Lang.JS,
+            Lang.JQ
         ],
         Details:[
             "Restful website with frontend and backend. Developed in a team of three.",
