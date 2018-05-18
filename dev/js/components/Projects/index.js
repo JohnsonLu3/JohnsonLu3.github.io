@@ -5,8 +5,8 @@ import ProjectPage from '../../containers/Projects';
 const Projects = () => (
     <div>
         <SubMenu />
-        <Projects />
+        <ProjectPage />
    </div>
 );
 
-export default ProjectPage;
+export default Projects;
