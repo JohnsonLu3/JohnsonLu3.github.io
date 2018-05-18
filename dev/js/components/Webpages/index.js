@@ -5,10 +5,9 @@ const Webpages = () => (
     <div>
        <div className="py-5">
             <div className="container">
-                <div>
-                    <h1 className="text-center display-1 py-2">Web page Designs</h1>
-                </div>
-                <div>
+                <div className="py-5">
+                    <h1 className="text-center display-1">Web page Designs</h1>
+                    <hr />
                     <h3 className="text-center">Just some website designs that I have made, mostly with bootstrap.</h3>
                 </div>
             </div>
