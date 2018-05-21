@@ -21,7 +21,7 @@ import SkillsData from './data/Skills-Data';
 import WebPagesData from './data/WebPages-Data';
 
 //import router
-import { Router, Route, IndexRoute, browserHistory} from 'react-router';
+import { Router, Route, IndexRoute, browserHistory, hashHistory} from 'react-router';
 import { syncHistoryWithStore } from 'react-router-redux';
 
 const logger = createLogger();
@@ -48,7 +48,7 @@ const routes =(
 
 ReactDOM.render(
     <Provider store={store}>
-        <Router history={browserHistory} routes = {routes} onUpdate={() => window.scrollTo(0, 0)}/>
+        <Router history={hashHistory} routes = {routes} onUpdate={() => window.scrollTo(0, 0)}/>
     </Provider>,
     document.getElementById('root')
 );
