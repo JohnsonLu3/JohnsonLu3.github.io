@@ -83,16 +83,6 @@ class Projects extends Component{
         return(
             <div className="container">
                 <div>
-                    <div className="row">
-                        <div className="col-md-12 d-flex justify-content-center">
-                            <h1 className="display-1 py-2">Projects</h1>
-                        </div>
-                    </div>
-                </div>
-                
-                <hr /> 
-
-                <div>
                     <div className="row" id="webApps">
                         <h1 className="style subHeader"><b>Web Apps</b></h1>
                     </div>
