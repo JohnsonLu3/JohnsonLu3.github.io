@@ -1,0 +1,90 @@
+@media only screen and (max-width: 780px) {
+    #myNav{
+        padding: 5%;
+    }
+
+    .BioCover img{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    #Skills h5{
+        padding-left: 2rem;
+    }
+
+    .projectBio{
+        height: 12rem;
+    }
+
+    #Projects {
+        h3{
+            font-size: 1.4rem;
+            display: block;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+
+    }
+
+    .subMenu{  
+        padding: 0;
+        width: 100%;
+        top: 10%;
+        background-color: #12bbad;
+
+
+        .flex-column{
+            flex-direction: row !important;
+        }
+
+        ul li{
+            display: inline;
+
+        }   
+
+        a{
+            padding-left: 2rem;
+            color: white;
+            font-size: 1.24rem;
+        }     
+  }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .py-5 {
+        padding-top: 2rem !important; 
+    }
+    .BioCover h1{
+        font-size: 3rem;
+    }
+
+    .BioCover p{
+        font-size: 1.2em;
+    }
+
+    .btn{
+        margin-bottom: 1rem;
+    }
+
+    .col-md-6{
+        position: relative;
+        width: 50%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px; 
+    }
+
+    .subMenu{  
+        a{
+            padding-left: 1rem;
+            font-size: .9rem;
+        }
+    }
+}

@@ -16,10 +16,10 @@ class Bio extends Component{
                     </div>
                     
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-lg-6">
                             <img className="img-fluid d-block icon mx-auto" src="../../img/me.png" /> 
                         </div>
-                        <div className="col-md-6 py-5">
+                        <div className="col-lg-6 py-5">
                             <div className="row">
                                 <div className="col-md-12 py-1">
                                 <p className="text-white bio text-left">{Bio.Desc}</p>

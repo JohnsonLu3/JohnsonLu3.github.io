@@ -4,10 +4,10 @@ import { Link } from 'react-router';
 class SubMenu extends Component{
     render(){
         return(
-            <div className="py-5">
-                <div className="container subMenu sticky">
+            <div>
+                <div className="subMenu sticky">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-lg-12">
                             <ul className="nav nav-pills flex-column">
                                 <li className="nav-item">
                                 <a href="/" className="active nav-link"><i className="fa fa-home fa-home"></i>&nbsp;Home</a>
