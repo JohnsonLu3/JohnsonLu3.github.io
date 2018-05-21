@@ -41,14 +41,14 @@ const store = createStore(
 const routes =(
     <Route path = "/" component={App}>
         <IndexRoute component={Main} />
-        <Route path="Projects" component={Projects} />
-        <Route path="Webpages" component={Webpages} />
+        <Route exact path="Projects" component={Projects} />
+        <Route exact path="Webpages" component={Webpages} />
     </Route>
     );
 
 ReactDOM.render(
     <Provider store={store}>
-        <Router history={browserHistory} routes = {routes}/>
+        <Router history={browserHistory} routes = {routes} onUpdate={() => window.scrollTo(0, 0)}/>
     </Provider>,
     document.getElementById('root')
 );
