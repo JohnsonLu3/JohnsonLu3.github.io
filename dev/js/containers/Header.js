@@ -11,7 +11,7 @@ class Header extends Component{
                     <div className="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
                         <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="/#Skills">Skills</a>
+                            <a className="nav-link" href="/">Home</a>
                         </li>
                         <li className="nav-item">
                             <Link to="/Projects" className="nav-link">Projects</Link>
