@@ -93,7 +93,7 @@ const Projects = [
     },
     {
         id: "JVFteLyrIZhGob4zCD36",
-        Name: "Gerry Mandering Analyer",
+        Name: "Gerry Mandering Analyzer",
         Section: Sect.WEBAPP,
         Description: "Created a restful web app in a team of four. The site was built in Java using the spring framework and was integrated with a mySQL 5.7 database. The app’s purpose was to analysis a state and it’s districts to determine if the state was gerrymandered.",
         Img: [
