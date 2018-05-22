@@ -7,8 +7,8 @@ const Projects = () => (
         <SubMenu />
         <div className="py-5">
             <div className="container">
-                <div  className="py-5">
-                    <h1 className="text-center display-1">Projects</h1>
+                <div  className="py-3">
+                    <h1 className="pageTitle text-center display-1">Projects</h1>
                     <hr />
                 </div>
             </div>

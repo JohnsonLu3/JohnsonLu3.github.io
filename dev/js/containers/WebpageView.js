@@ -16,7 +16,7 @@ class WebpageView extends Component{
 
     renderName(web, i){
         return(
-            <div className="col-md-3 col-6 py-4" key={web.Id}>
+            <div className="col-lg-3 col-6 py-4" key={web.Id}>
                 <div className="text-center">
                     <a href={web.Link} target="blank"><p className="webpageName">{web.Name}</p></a>
                 </div>

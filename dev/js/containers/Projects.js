@@ -46,24 +46,24 @@ class Projects extends Component{
             <div className="py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col-lg-12">
                             <div className="row">
-                                <div className="col-md-12">
+                                <div className="col-lg-12">
                                     {this.renderLink(proj)}
                                 </div>
                             </div>
                         <div className="row">
-                            <div className="col-md-6">
+                            <div className="col-lg-6">
                                 <div className="row langBar">
                                     {this.renderLang(proj)}
                                 </div>
                                 <div className="row">
-                                    <div className="col-md-12 projDetails">
+                                    <div className="col-lg-12 projDetails">
                                         {this.renderDetails(proj)}
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-lg-6">
                                 <div>
                                     <img className="d-block img-fluid w-100" src={"./img/projects/" + proj.Img[0]} /> 
                                 </div>
@@ -84,7 +84,7 @@ class Projects extends Component{
             <div className="container">
                 <div>
                     <div className="row" id="webApps">
-                        <h1 className="style subHeader"><b>Web Apps</b></h1>
+                        <h1 className="subHeader"><b>Web Apps</b></h1>
                     </div>
                 </div>
 
@@ -99,7 +99,7 @@ class Projects extends Component{
 
                 <div>
                     <div className="row" id="software">
-                        <h1 className="style subHeader"><b>Software</b></h1>
+                        <h1 className="subHeader"><b>Software</b></h1>
                     </div>
                 </div>
 

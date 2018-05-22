@@ -62,11 +62,18 @@
         padding-top: 2rem !important; 
     }
     .BioCover h1{
+        padding-top: 2.5rem;
         font-size: 3rem;
     }
 
     .BioCover p{
         font-size: 1.2em;
+    }
+
+    #Skills{
+        h5{
+            display: none;
+        }
     }
 
     .btn{
@@ -86,5 +93,27 @@
             padding-left: 1rem;
             font-size: .9rem;
         }
+    }
+
+    .pageTitle {
+        margin-top: 4rem;
+        font-size: 2.5rem;
+    }
+
+    .pageSub{
+        font-size: 1.5rem;
+    }
+
+    .webpageName{
+        font-size: 1.2rem;
+    }
+
+    .subHeader{
+        padding: 1rem;
+        background-color: #12bbad;
+        color: white;
+        -webkit-box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
+        -moz-box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
+        box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
     }
 }
