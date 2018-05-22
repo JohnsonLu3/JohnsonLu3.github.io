@@ -1,4 +1,36 @@
+//tablet XL
+@media only screen and (max-width: 1024px) {
+     .subMenu{  
+        padding: 0;
+        width: 100%;
+        background-color: #12bbad;
+        top: 4rem;
+
+
+        .flex-column{
+            flex-direction: row !important;
+        }
+
+        ul li{
+            display: inline;
+
+        }   
+
+        a{
+            padding-left: 2rem;
+            color: white;
+            font-size: 1.24rem;
+        }     
+  }
+}
+
+// tablet
 @media only screen and (max-width: 780px) {
+
+    .subMenu{
+        top: 4.3rem;
+    }
+
     #myNav{
         padding: 5%;
     }
@@ -27,35 +59,10 @@
             width: 100%;
             height: 100%;
         }
-
-
     }
-
-    .subMenu{  
-        padding: 0;
-        width: 100%;
-        top: 10%;
-        background-color: #12bbad;
-
-
-        .flex-column{
-            flex-direction: row !important;
-        }
-
-        ul li{
-            display: inline;
-
-        }   
-
-        a{
-            padding-left: 2rem;
-            color: white;
-            font-size: 1.24rem;
-        }     
-  }
-
 }
 
+// mobile
 @media only screen and (max-width: 420px) {
 
     .py-5 {

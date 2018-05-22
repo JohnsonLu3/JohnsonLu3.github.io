@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 class Header extends Component{
     render(){
         return(
-            <div>
+            <div class="">
                 <nav className="navbar navbar-expand-md bg-primary navbar-dark sticky" id="myNav">
                     <a className="navbar-brand" href="/"><b>Johnson Lu</b></a>
                     <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span className="navbar-toggler-icon"></span> </button>
