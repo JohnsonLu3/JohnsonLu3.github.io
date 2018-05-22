@@ -2,6 +2,7 @@
 @media only screen and (max-width: 1024px) {
      .subMenu{  
         padding: 0;
+        
         width: 100%;
         background-color: #12bbad;
         top: 4rem;
@@ -79,10 +80,18 @@
 
     #Skills{
         h5{
-            display: none;
+            text-align: center;
+            padding: 0;
+        }
+
+        .skillIco{
+            text-align: center;
+        }
+
+        .col-md-4{
+            width: 10rem;
         }
     }
-
     .btn{
         margin-bottom: 1rem;
     }
