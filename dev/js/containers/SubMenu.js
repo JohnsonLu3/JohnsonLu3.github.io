@@ -12,13 +12,13 @@ class SubMenu extends Component{
                                 <li className="nav-item">
                                 <a href="/" className="active nav-link"><i className="fa fa-home fa-home"></i>&nbsp;Home</a>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item webappButton">
                                 <a href="#webApps" className="nav-link">Web Apps</a>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item softwareButton">
                                 <a className="nav-link" href="#software">Software</a>
                                 </li>
-                                <li className="nav-item">
+                                <li className="nav-item gamesButton">
                                 <a href="#games" className="nav-link">Games</a>
                                 </li>
                             </ul>

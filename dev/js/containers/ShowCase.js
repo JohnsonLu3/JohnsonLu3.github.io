@@ -29,7 +29,6 @@ class ShowCase extends Component{
                     <img className="img-fluid d-block mb-4 img-thumbnail" src={"../../img/projects/" + project.Img[0]} /> 
                 </div>
                 <h3 className="text-dark"><a href={"/projects/#" + project.Name}>{project.Name}</a></h3>
-                <p className="mt-1 projectBio"> {project.Description} </p>
                 <div className="row py-3">
                     <div className="col-md-6">
                         {this.projectSrcButtons(project)}
@@ -38,6 +37,8 @@ class ShowCase extends Component{
                         {this.projectViewButtons(project)}
                     </div>
                 </div>
+                <p className="mt-1 projectBio"> {project.Description} </p>
+   
             </div>
         );
     }
@@ -65,7 +66,7 @@ class ShowCase extends Component{
                 <div className="bg-light">
                     <div className="row">
                         <div className="col-md-12 justify-content-center d-flex">
-                            <Link to="/Projects"className="btn btn-info text-dark btn-lg">More Projects</Link>
+                            <Link to="/Projects" className="btn btn-info text-dark btn-lg moreProjects">More Projects</Link>
                         </div>
                     </div>
                     <br />

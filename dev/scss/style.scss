@@ -6198,14 +6198,20 @@ html, body {
     height: 5vh; 
   }
 
+.navbar-brand{
+    font-size: 2vh;
+    b{
+      color: white;
+    }
+}
+
 #myNav{
   padding-left: 10vw;
   padding-right: 10vw;
   width: 100%;
 
   font-size: 1.5vh;
-  
-  
+
   a{
     color: whitesmoke;
   }
@@ -6243,7 +6249,8 @@ html, body {
 }
 
 .projDesc {
-  text-indent: 3.5em; }
+  text-indent: 3.5em; 
+}
 
 .ShowCaseImage img{
   height: 200px;
@@ -6252,8 +6259,21 @@ html, body {
   margin-right: auto;
 }
 
+#Projects {
+  h3{
+        font-size: 1.5em;
+    }
+
+}
+
 .projectBio {
-  height: 8em; 
+  height: 8em;
+  margin-bottom: 15vh;
+  font-size: 1.2em;
+}
+
+.moreProjects{
+  margin-bottom: 10vh;
 }
 
 .webpageImg{

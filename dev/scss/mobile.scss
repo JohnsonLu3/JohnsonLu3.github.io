@@ -1,11 +1,14 @@
 //tablet XL
 @media only screen and (max-width: 1024px) {
      .subMenu{  
-        padding: 0;
-        
+        padding: 0;     
         width: 100%;
         background-color: #12bbad;
-        top: 4rem;
+        top: 2vw;
+        
+        .active{
+            height: 0;
+        }
 
 
         .flex-column{
@@ -20,7 +23,7 @@
         a{
             padding-left: 2rem;
             color: white;
-            font-size: 1.24rem;
+            font-size: 1vw;
         }     
      }
 
@@ -36,11 +39,11 @@
     }
 
     #Projects h3{
-        font-size: 2vw;
+        font-size: 1em;
     }
     
     .projectBio{
-        height: 12vh;
+       font-size: .8em;
     }
 
 }
@@ -49,17 +52,57 @@
 @media only screen and (max-width: 780px) {
 
     .subMenu{
-        top: 4.3rem;
+        top: inherit;
+        bottom: 0em;
+        height: 5vw;
+        padding-top: 1vw;
+
+        ul{
+            padding: 0 14vw 0 14vw;
+        }
+
+        .active{
+            display: none;
+        }
+
+        .webappButton{
+            padding: 0 11% 0 11%;
+        }
+
+        .softwareButton{
+            padding: 0 11% 0 11%;
+        }
+
+        .gamesButton{
+            padding: 0 0% 0 11%;
+
+        }
+
+        .nav-item{
+            text-align: center;
+            a{
+                font-size: 2.2vw;
+                padding: 0;
+            }
+        }
+        
     }
 
     #myNav{
         padding: 5%;
     }
 
-    .BioCover img{
-        width: 50%;
-        display: block;
-        margin: auto;
+    .BioCover{ 
+        img{
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
+        h1{
+            padding-top: 10vw;
+            font-size: 12vw;
+            height: 100%;
+        }
     }
 
     #Skills{
@@ -78,7 +121,6 @@
 
     .projectBio{
         height: 5vh;
-
     }
 
     #Projects {
@@ -94,17 +136,52 @@
         .col-md-6{
             width: 50%;
         }
+    
     }
+
+    .subHeader{
+        float: left;
+        left: 0;
+        padding: 2vw;
+        background-color: #12bbad;
+        color: white;
+        -webkit-box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
+        -moz-box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
+        box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
+    }
+    .pageTitle {
+        margin-top: 10vh;
+        font-size: 12vw;
+    }
+}
+
+//nav hambuger
+@media only screen and (max-width: 767px) {
+    #myNav{
+        height: auto;
+
+        a{
+            font-size: 3vh;
+        }
+    }
+
+    .projectBio{
+        height: auto;
+    }
+
 }
 
 // mobile
 @media only screen and (max-width: 420px) {
-
     .py-5 {
         padding-top: 5vw !important; 
     }
+    .navbar-brand{
+        font-size: 3vh;
+    }
+
     .BioCover h1{
-        padding-top: 15vw;
+        padding-top: 20vw;
         font-size: 12vw;
         height: 100%;
     }
@@ -139,21 +216,19 @@
         padding-left: 15px; 
     }
 
+
+    .projectBio{
+        height: auto;
+    }
+
     .subMenu{  
         a{
             padding-left: 2vw;
-            font-size: 3.5vw;
+            font-size: 3vw;
         }
     }
     
-    .subHeader{
-        padding: 2vw;
-        background-color: #12bbad;
-        color: white;
-        -webkit-box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
-        -moz-box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
-        box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
-    }
+
 
     .langBar{
         font-size: 2.5vw;
