@@ -7,7 +7,7 @@ class Bio extends Component{
         let Bio = this.props.Bio;
         return(
             <div className="py-5 text-center BioCover" style={{backgroundImage: 'url(../../img/cover.png)' }}>
-                <div className="container py-5">
+                <div className="container">
                     
                     <div className="row">
                         <div className="col-md-12">
@@ -19,7 +19,7 @@ class Bio extends Component{
                         <div className="col-lg-6">
                             <img className="img-fluid d-block icon mx-auto" src="../../img/me.png" /> 
                         </div>
-                        <div className="col-lg-6 py-5">
+                        <div className="col-lg-6 py-3">
                             <div className="row">
                                 <div className="col-md-12 py-1">
                                 <p className="text-white bio text-left">{Bio.Desc}</p>

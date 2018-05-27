@@ -6191,15 +6191,25 @@ html, body {
 }
 
 .sticky {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  width: 100%; }
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%; 
+    height: 5vh; 
+  }
 
 #myNav{
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 10vw;
+  padding-right: 10vw;
   width: 100%;
+
+  font-size: 1.5vh;
+  
+  
+  a{
+    color: whitesmoke;
+  }
+
 }
 
 .bio {

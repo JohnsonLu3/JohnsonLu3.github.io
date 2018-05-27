@@ -22,7 +22,27 @@
             color: white;
             font-size: 1.24rem;
         }     
-  }
+     }
+
+
+    #Skills{
+        .col-md-4{
+            width: 20vw;
+        }
+
+        h5{
+            text-align: center;
+        }
+    }
+
+    #Projects h3{
+        font-size: 2vw;
+    }
+    
+    .projectBio{
+        height: 12vh;
+    }
+
 }
 
 // tablet
@@ -42,12 +62,23 @@
         margin: auto;
     }
 
-    #Skills h5{
-        padding-left: 2rem;
+    #Skills{
+        .col-md-4{
+            width: 20vw;
+        }
+
+        h5{
+            text-align: center;
+        }
+    }
+
+    .btn{
+        margin-bottom: 2vw;
     }
 
     .projectBio{
-        height: 12rem;
+        height: 5vh;
+
     }
 
     #Projects {
@@ -60,6 +91,9 @@
             width: 100%;
             height: 100%;
         }
+        .col-md-6{
+            width: 50%;
+        }
     }
 }
 
@@ -67,15 +101,16 @@
 @media only screen and (max-width: 420px) {
 
     .py-5 {
-        padding-top: 2rem !important; 
+        padding-top: 5vw !important; 
     }
     .BioCover h1{
-        padding-top: 2.5rem;
-        font-size: 3rem;
+        padding-top: 15vw;
+        font-size: 12vw;
+        height: 100%;
     }
 
     .BioCover p{
-        font-size: 1.2em;
+        font-size: 5vw;
     }
 
     #Skills{
@@ -89,11 +124,11 @@
         }
 
         .col-md-4{
-            width: 10rem;
+            width: 30vw;
         }
     }
     .btn{
-        margin-bottom: 1rem;
+        margin-bottom: 2vw;
     }
 
     .col-md-6{
@@ -106,30 +141,35 @@
 
     .subMenu{  
         a{
-            padding-left: 1rem;
-            font-size: .9rem;
+            padding-left: 2vw;
+            font-size: 3.5vw;
         }
     }
-
-    .pageTitle {
-        margin-top: 4rem;
-        font-size: 2.5rem;
-    }
-
-    .pageSub{
-        font-size: 1.5rem;
-    }
-
-    .webpageName{
-        font-size: 1.2rem;
-    }
-
+    
     .subHeader{
-        padding: 1rem;
+        padding: 2vw;
         background-color: #12bbad;
         color: white;
         -webkit-box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
         -moz-box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
         box-shadow: -11px 14px 26px -10px rgba(0,0,0,0.29);
     }
+
+    .langBar{
+        font-size: 2.5vw;
+    }
+
+    .pageTitle {
+        margin-top: 10vh;
+        font-size: 12vw;
+    }
+
+    .pageSub{
+        font-size: 6vw;
+    }
+
+    .webpageName{
+        font-size: 5vw;
+    }
+
 }
