@@ -9,7 +9,7 @@ class SubMenu extends Component{
                     <div className="row">
                         <div className="col-lg-12">
                             <ul className="nav nav-pills flex-column">
-                                <li className="nav-item">
+                                <li className="nav-item HomeActive">
                                 <a href="/" className="active nav-link"><i className="fa fa-home fa-home"></i>&nbsp;Home</a>
                                 </li>
                                 <li className="nav-item webappButton">

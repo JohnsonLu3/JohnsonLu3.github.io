@@ -4,10 +4,12 @@
         padding: 0;     
         width: 100%;
         background-color: #12bbad;
-        top: 2vw;
-        
+        top: inherit;
+        bottom: 0;
+
         .active{
             height: 0;
+            display: none;
         }
 
 
@@ -17,14 +19,18 @@
 
         ul li{
             display: inline;
+            margin: auto;
 
         }   
 
         a{
-            padding-left: 2rem;
             color: white;
-            font-size: 1vw;
-        }     
+            font-size: 1rem;
+        }
+
+        .HomeActive{
+            display: none;
+        }  
      }
 
 
@@ -50,43 +56,6 @@
 
 // tablet
 @media only screen and (max-width: 780px) {
-
-    .subMenu{
-        top: inherit;
-        bottom: 0em;
-        height: 5vw;
-        padding-top: 1vw;
-
-        ul{
-            padding: 0 14vw 0 14vw;
-        }
-
-        .active{
-            display: none;
-        }
-
-        .webappButton{
-            padding: 0 11% 0 11%;
-        }
-
-        .softwareButton{
-            padding: 0 11% 0 11%;
-        }
-
-        .gamesButton{
-            padding: 0 0% 0 11%;
-
-        }
-
-        .nav-item{
-            text-align: center;
-            a{
-                font-size: 2.2vw;
-                padding: 0;
-            }
-        }
-        
-    }
 
     #myNav{
         padding: 5%;
@@ -220,15 +189,6 @@
     .projectBio{
         height: auto;
     }
-
-    .subMenu{  
-        a{
-            padding-left: 2vw;
-            font-size: 3vw;
-        }
-    }
-    
-
 
     .langBar{
         font-size: 2.5vw;
