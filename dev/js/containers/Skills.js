@@ -27,7 +27,7 @@ class Skills extends Component{
                         <div className="col-md-12" id="Skills">
                             <h1 className="mb-4 text-primary">Skills</h1>
                             <p className="lead">Programming related skills that I have gained over the years</p>
-                            <div className="row text-left mt-5">
+                            <div className="row text-left mt-5 skillsDisplay">
                                 {Skills.map((skill, i) =>{
                                     return(this.skillSection(skill, i));
                                 })}
