@@ -5,3 +5,17 @@
 .skill:hover{
     transform: scale(1.1);
 }
+
+
+
+@media only screen and (max-width: 1500px){
+    .row .col.s2 {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .row .col.s2 {
+        width: 33%;
+    }
+}
