@@ -8,13 +8,13 @@ nav{
     h1{
         font-size: 24px;
     }
-
+    position: fixed;
     background-color: $blue;
 }
 
 .nav-bar{
     align-items: center;
-    padding: 10px 0 10px 0;
+    padding: 1rem 0 1rem 0;
     .brand{
         display: inline;
 

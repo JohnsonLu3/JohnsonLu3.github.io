@@ -1,0 +1,7 @@
+<app-headerbar></app-headerbar>
+
+<div class="row container">
+    <div class="skill col s2" *ngFor="let skill of skills">
+        <app-skill-card skill={{skill.id}} ico={{skill.ico}}></app-skill-card>
+    </div>
+</div>

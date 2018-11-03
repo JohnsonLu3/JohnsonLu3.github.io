@@ -1,0 +1,12 @@
+@import "../../assets/color.scss";
+
+.headerbar{
+    background-image: linear-gradient( rgba(black,.1), rgba($grey,.1));
+    background-color: $darkBlue;
+    color: white;
+    text-align: center;
+
+    h1{
+        padding: 10px 0 10px 0;
+    }
+}

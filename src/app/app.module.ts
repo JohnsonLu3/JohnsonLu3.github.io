@@ -7,6 +7,8 @@ import { BioComponent } from './bio/bio.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { SkillCardComponent } from './skill-card/skill-card.component';
 import { MainComponent } from './main/main.component';
+import { SkillsComponent } from './skills/skills.component';
+import { HeaderbarComponent } from './headerbar/headerbar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { MainComponent } from './main/main.component';
     BioComponent,
     ProjectCardComponent,
     SkillCardComponent,
-    MainComponent
+    MainComponent,
+    SkillsComponent,
+    HeaderbarComponent
   ],
   imports: [
     BrowserModule
