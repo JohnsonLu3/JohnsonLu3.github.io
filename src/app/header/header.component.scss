@@ -1,0 +1,47 @@
+@import "../../assets/color.scss";
+
+nav{
+    padding: 0 10% 0 10%;
+    height: auto;
+    line-height: 0;
+    
+    h1{
+        font-size: 24px;
+    }
+
+    background-color: $blue;
+}
+
+.nav-bar{
+    align-items: center;
+    padding: 10px 0 10px 0;
+    .brand{
+        display: inline;
+
+        i{
+            height: auto;
+        }
+    }
+
+    .brand_name h1{
+        margin: 0 20px 0 20px;  
+        display: inline;
+    }
+
+    .social{
+        position: relative;
+        float: right;
+
+        li{
+            padding: 0 10px 0 10px;
+
+            i{
+                height: auto;
+            }
+        }
+
+        li a:hover{
+            background-color: transparent;
+        }
+    }
+}
