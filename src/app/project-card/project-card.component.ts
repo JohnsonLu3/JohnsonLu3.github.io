@@ -24,6 +24,8 @@ export class ProjectCardComponent implements OnInit {
   ngOnInit() {
     this.imgPath = new String().concat("../../assets/images/projects/" , this.img);
 
+    if(this.source === null) this.source = "";
+
     let filterData = this.lang.split(",");
     for(let f of filterData){
       this.filters.push(f);
