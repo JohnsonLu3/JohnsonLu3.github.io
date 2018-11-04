@@ -9,6 +9,8 @@ import { SkillCardComponent } from './skill-card/skill-card.component';
 import { MainComponent } from './main/main.component';
 import { SkillsComponent } from './skills/skills.component';
 import { HeaderbarComponent } from './headerbar/headerbar.component';
+import { FilterChipComponent } from './filter-chip/filter-chip.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HeaderbarComponent } from './headerbar/headerbar.component';
     SkillCardComponent,
     MainComponent,
     SkillsComponent,
-    HeaderbarComponent
+    HeaderbarComponent,
+    FilterChipComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule

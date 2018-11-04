@@ -1,38 +1,51 @@
-const Lang ={
-    JAVA : "devicon-java-plain",
-    PYTHON : "devicon-python-plain",
-    MYSQL : "devicon-mysql-plain",
-    REACT : "devicon-react-original",
-    JS : "devicon-javascript-plain",
-    CPP : "devicon-cplusplus-plain",
-    CSHARP : "devicon-csharp-plain",
-    JQ : "devicon-jquery-plain",
-    AWS: "devicon-amazonwebservices-original"
+
+export class Projects{
+
+Lang ={
+    JAVA : "Java",
+    PYTHON : "Python",
+    MYSQL : "MySQL",
+    REACT : "React",
+    JS : "Js",
+    CPP : "C++",
+    CSHARP : "C#",
+    JQ : "jQuery",
+    AWS: "AWS",
+    ANGULAR: "Angular",
+    BOOTSTRAP: "Bootstrap",
+    DJANGO: "Django",
+    WEBPACK: "Webpack",
+    GRADLE: "Gradle",
+    CSS: "Css3",
+    HTML: "HTML5"
 }
 
-const Sect ={
+Sect ={
     WEBAPP : "WEBAPP",
     SOFTWARE : "SOFTWARE",
     GAME : "GAME"
 
 }
 
-const Projects = [
+Projects = [
 
     {
         id: "gnaASWvbFSG9g9t5YIkm",
         Name: "NoteSpace",
-        Section: Sect.WEBAPP,
+        Section: this.Sect.WEBAPP,
         Description: "An Online Stick Note Board. Create new Sticky Notes or edit old ones. You can even have custom Stick Note colors. This project was made in React.js with Redux",
-        Img: [
-            "NoteSpace.jpg",
-        ],
+        Img: "NoteSpace.jpg",
         SourceLink: "https://github.com/JohnsonLu3/NoteSpace",
         Visit: "https://johnsonlu3.github.io/NoteSpace/src/index.html",
         ShowCase: true,
         languages:[
-            Lang.JS,
-            Lang.REACT
+            this.Lang.JS,
+            this.Lang.REACT,
+            this.Lang.HTML,
+            this.Lang.CSS,
+            this.Lang.JQ,
+            this.Lang.BOOTSTRAP,
+            this.Lang.WEBPACK
         ],
         Details:[
             'Website version of a sticky note board',
@@ -45,19 +58,20 @@ const Projects = [
     {
         id: "17V7b9f5ltkxvqcbAyT5",
         Name: "CinApex",
-        Section: Sect.WEBAPP,
+        Section: this.Sect.WEBAPP,
         Description: "Group project, where we developed a database for a ‘movie rental company’. We used MySql for the database. Website was designed with Java along with technologies like JDBC were used for the backend of the website.",
-        Img: [
-            "CinApex.png",
-            "CinApex2.png"
-        ],
+        Img: "CinApex.png",
         SourceLink: "https://github.com/JohnsonLu3/CinApex",
         Visit: null,
         ShowCase: true,
         languages:[
-            Lang.JAVA,
-            Lang.JS,
-            Lang.JQ
+            this.Lang.JAVA,
+            this.Lang.JS,
+            this.Lang.JQ,
+            this.Lang.MYSQL,
+            this.Lang.HTML,
+            this.Lang.GRADLE,
+            this.Lang.CSS
         ],
         Details:[
             'Mock website that acted as a movie rental service.',
@@ -71,19 +85,21 @@ const Projects = [
     {
         id: "PMT7MTY34F2zCOcufSeE",
         Name: "Youtube Spoiler Free",
-        Section: Sect.WEBAPP,
+        Section: this.Sect.WEBAPP,
         Description: "Don't you get tired when you're trying to share a video with your friends but the video's title and thumbnail spoil it? Well thats what YTSF, YTSpoilerFree is for. Just replace youtube with ytSpoilerFree in the url and boom, spoiler free video to share.",
-        Img: [
-            "ytsf.png"
-        ],
+        Img: "ytsf.png",
         SourceLink: null,
         Visit: "http://www.ytspoilerfree.com/",
         ShowCase: true,
         languages:[
-            Lang.JAVA,
-            Lang.JS,
-            Lang.JQ,
-            Lang.AWS
+            this.Lang.JAVA,
+            this.Lang.GRADLE,
+            this.Lang.HTML,
+            this.Lang.CSS,
+            this.Lang.BOOTSTRAP,
+            this.Lang.JS,
+            this.Lang.JQ,
+            this.Lang.AWS
         ],
         Details:[
             'Restful website with frontend and backend. Developed by myself',
@@ -94,20 +110,21 @@ const Projects = [
     {
         id: "JVFteLyrIZhGob4zCD36",
         Name: "Gerry Mandering Analyzer",
-        Section: Sect.WEBAPP,
+        Section: this.Sect.WEBAPP,
         Description: "Created a restful web app in a team of four. The site was built in Java using the spring framework and was integrated with a mySQL 5.7 database. The app’s purpose was to analysis a state and it’s districts to determine if the state was gerrymandered.",
-        Img: [
-            "GerryMandering.png"
-        ],
+        Img: "GerryMandering.png",
         SourceLink: "https://github.com/JohnsonLu3/Gerrymandering-Analysis",
         Visit: null,
         ShowCase: true,
         languages:[
-            Lang.JAVA,
-            Lang.MYSQL,
-            Lang.PYTHON,
-            Lang.JS,
-            Lang.JQ
+            this.Lang.JAVA,
+            this.Lang.GRADLE,
+            this.Lang.MYSQL,
+            this.Lang.PYTHON,
+            this.Lang.HTML,
+            this.Lang.CSS,
+            this.Lang.JS,
+            this.Lang.JQ
         ],
         Details:[
             "Restful website with frontend and backend. Developed in a team of three.",
@@ -122,16 +139,14 @@ const Projects = [
     {
         id: "5RdIUmyV1CBmK83JQS1p",
         Name: "Maze Generator",
-        Section: Sect.SOFTWARE,
+        Section: this.Sect.SOFTWARE,
         Description: "Backtracing algorithm that generates a maze in java script using the P5.js library.",
-        Img: [
-            "MazeGenerator.png"
-        ],
+        Img: "MazeGenerator.png",
         SourceLink: "https://github.com/JohnsonLu3/MazeGenerator",
         Visit: "https://johnsonlu3.github.io/MazeGenerator/",
         ShowCase: true,
         languages:[
-            Lang.JAVA,
+            this.Lang.JAVA,
         ],
         Details:[
             'Made in processing with Java',
@@ -142,16 +157,14 @@ const Projects = [
     {
         id: "H1zxiq6E6VbhW8YGfsVo",
         Name: "Smart Snake",
-        Section: Sect.SOFTWARE,
+        Section: this.Sect.SOFTWARE,
         Description: "A classic game of snake but played by a Neural Network. Created in processing with Java. Both the game and neural network are made from scratch.",
-        Img: [
-            "SmartSnake.png"
-        ],
+        Img: "SmartSnake.png",
         SourceLink: "https://github.com/JohnsonLu3/smartSnake",
         Visit: null,
         ShowCase: true,
         languages:[
-            Lang.JAVA
+            this.Lang.JAVA
         ],
         Details:[
             'Made in processing with Java',
@@ -164,16 +177,16 @@ const Projects = [
     {
         id: "iyqQCfuNoWdSBuOR7ilf",
         Name: "Phase Shifter",
-        Section: Sect.GAME,
+        Section: this.Sect.GAME,
         Description: "Video game developed in a team of 3. We used the phaser js library.",
-        Img: [
-            "PhaseShifter.png"
-        ],
+        Img: "PhaseShifter.png",
         SourceLink: "https://github.com/JohnsonLu3/PhaseShifter",
         Visit: "https://johnsonlu3.github.io/PhaseShifter/",
         ShowCase: false,
         languages:[
-            Lang.JS
+            this.Lang.HTML,
+            this.Lang.CSS,
+            this.Lang.JS
         ],
         Details:[
             'PhaseShifter was created in javascript.',
@@ -187,16 +200,14 @@ const Projects = [
     {
         id: "HQrIw0zQLg42M7UMk275",
         Name: "Text Editor",
-        Section: Sect.SOFTWARE,
+        Section: this.Sect.SOFTWARE,
         Description: "A basic Text Editor app made in C++ using the QT Framework. Supports many of the basic functionalities of a text editor. Such as, cut, copy, paste and undo/redo.",
-        Img: [
-            "TextEditor.jpg"
-        ],
+        Img: "TextEditor.jpg",
         SourceLink: "https://github.com/JohnsonLu3/TextEditor",
         Visit: null,
         ShowCase: false,
         languages:[
-            Lang.CPP
+            this.Lang.CPP
         ],
         Details:[
             'Made in C++ with QT framework',
@@ -208,17 +219,14 @@ const Projects = [
     {
         id: "Lm9BmDLOfoqjEIPuh25d",
         Name: "Specturm Analyzer",
-        Section: Sect.SOFTWARE,
+        Section: this.Sect.SOFTWARE,
         Description: "A audio spectrum Analyzer made in processing. This was made out of boredom and it was a real fun quick project to make.",
-        Img: [
-            "Analyzer.png",
-            "Analyzer2.png"
-        ],
+        Img: "Analyzer.png",
         SourceLink: "https://github.com/JohnsonLu3/SpectrumAnalyzer",
         Visit: null,
         ShowCase: false,
         languages:[
-            Lang.JAVA
+            this.Lang.JAVA
         ],
         Details:[
             'Made in Processing with Java',
@@ -230,17 +238,14 @@ const Projects = [
     {
         id: "cbMO4HlsfETEk1BUCZ4V",
         Name: "Super RPS Fighters Deluxe",
-        Section: Sect.GAME,
+        Section: this.Sect.GAME,
         Description: "Rock, Paper, Scissors as a fighting game. Created with a friend. I handle coding and he handled art assets.",
-        Img: [
-            "SRPSFD.png",
-            "SRPSFD2.png"
-        ],
+        Img: "SRPSFD.png",
         SourceLink: "https://github.com/JohnsonLu3/SuperRPSFightersDeluxe",
         Visit: null,
         ShowCase: false,
         languages:[
-            Lang.CSHARP
+            this.Lang.CSHARP
         ],
         Details:[
             'Made in C# with unity.',
@@ -250,4 +255,6 @@ const Projects = [
 
     }
 ]
-export default Projects;
+
+
+}

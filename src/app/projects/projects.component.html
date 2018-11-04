@@ -1,0 +1,15 @@
+<app-headerbar text="Projects"></app-headerbar>
+
+<div class="row container">
+    <div id={{title}} class="projects col s4" *ngFor="let p of data">
+            <app-project-card 
+                id={{p.id}}
+                title={{p.Name}}
+                description={{p.Description}}
+                languages={{p.languages}}
+                img={{p.Img}}
+                source={{p.SourceLink}}
+                visit={{p.Visit}}
+            ></app-project-card>
+    </div>
+</div>

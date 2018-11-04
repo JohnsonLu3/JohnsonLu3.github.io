@@ -1,8 +1,16 @@
 <div class="card">
     <div class="image-container">
-        <img src="../../assets/images/projects/ytsf.png">
+        <img src={{imgPath}}>
     </div>
     <a href="#">
-        <h1>YouTube Spoiler Free Web App</h1>
+        <h1>{{title}}</h1>
     </a>
+    <p>{{desc}}</p>
+
+
+    <div class="row">
+        <div class="col" *ngFor="let chip of filters">
+            <app-filter-chip filter={{chip}}></app-filter-chip>
+        </div>
+    </div>
 </div>

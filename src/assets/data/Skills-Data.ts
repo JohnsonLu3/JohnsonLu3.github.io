@@ -83,6 +83,10 @@ export class SkillData{
         {
             id: "AWS",
             ico: "devicon-amazonwebservices-plain"
+        },
+        {
+            id: "ANGULAR",
+            ico: "devicon-angularjs-plain"
         }
     ] 
 

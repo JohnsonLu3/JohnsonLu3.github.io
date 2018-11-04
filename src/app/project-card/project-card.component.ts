@@ -1,19 +1,33 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-project-card',
-  template: `
-    <p>
-      project-card works!
-    </p>
-  `,
+  templateUrl: 'project-card.component.html',
   styleUrls: ['./project-card.component.scss']
 })
 export class ProjectCardComponent implements OnInit {
 
-  constructor() { }
+  @Input('id') id : string;
+  @Input('title') title : string;
+  @Input('img') img : string;
+  @Input('description') desc : string;
+  @Input('languages') lang : string;
+  @Input('source') source : string;
+  @Input('visit') visit : string;
+
+  imgPath : string;
+  filters = []
+
+  constructor() {
+  }
 
   ngOnInit() {
+    this.imgPath = new String().concat("../../assets/images/projects/" , this.img);
+
+    let filterData = this.lang.split(",");
+    for(let f of filterData){
+      this.filters.push(f);
+    }
   }
 
 }
