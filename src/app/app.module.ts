@@ -11,6 +11,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { HeaderbarComponent } from './headerbar/headerbar.component';
 import { FilterChipComponent } from './filter-chip/filter-chip.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProjectsComponent } from './projects/projects.component';
     SkillsComponent,
     HeaderbarComponent,
     FilterChipComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule

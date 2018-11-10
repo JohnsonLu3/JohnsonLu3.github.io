@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  navOpener;
+
   constructor() { }
 
   ngOnInit() {
+    this.navOpener = document.getElementById("openSideNav");
+    this.navOpener.addEventListener("click", function(){
+        document.getElementById("sidenav").classList.remove("close");
+    });
   }
 
 }
