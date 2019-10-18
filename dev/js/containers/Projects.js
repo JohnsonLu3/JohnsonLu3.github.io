@@ -43,7 +43,7 @@ class Projects extends Component{
 
     renderProjectView(proj){
         return(
-            <div className="py-5">
+            <div className="projectDetails py-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

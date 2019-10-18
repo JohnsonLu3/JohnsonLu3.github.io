@@ -20,6 +20,61 @@ const Sect ={
 const Projects = [
 
     {
+        id: "b0cb7f7472bb0fd781e",
+        Name: "Midtown Comics",
+        Section: Sect.WEBAPP,
+        Description: "An ecommerce website built for Midtown Comics. Designed for both desktop and mobile use. Worked with Accessibility360 to ensure a nice user experience for disabilities",
+        Img: [
+            "midtown1.png",
+			"midtown2.png",
+			"midtown3.png",
+			"midtown4.png"
+        ],
+        SourceLink: null,
+        Visit: "https://www.midtowncomics.com/",
+        ShowCase: true,
+        languages:[
+            Lang.JS,
+            Lang.JQ
+        ],
+        Details:[
+            'Responsive for both mobile and desktop use design',
+            'Built with Accessibility in mind',
+            'Contains features such as dynamically sizing carousels',
+        ]
+
+    },
+    {
+        id: "b0cb7f7472bb0fd1ikd",
+        Name: "Midtown Comics Android App",
+        Section: Sect.SOFTWARE,
+        Description: "Android App for Midtown Comics",
+        Img: [
+            "midtown-android1.png",
+			"midtown-android2.png",
+			"midtown-android3.png",
+			"midtown-android4.png",
+            "midtown-android5.png",
+            "midtown-android6.png",
+            "midtown-android7.png",
+            "midtown-android8.png",
+            "midtown-android9.png",
+            "midtown-android10.png"
+        ],
+        SourceLink: null,
+        Visit: null,
+        ShowCase: true,
+        languages:[
+            Lang.JAVA,
+            Lang.MYSQL
+        ],
+        Details:[
+            'Built Front/Back end of Mobile app from ground up',
+            'Built Web API to talk with the mobile app.'
+        ]
+
+    },
+	{
         id: "gnaASWvbFSG9g9t5YIkm",
         Name: "NoteSpace",
         Section: Sect.WEBAPP,
