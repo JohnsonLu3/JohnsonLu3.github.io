@@ -38,10 +38,18 @@ const Projects = [
             Lang.JQ
         ],
         Details:[
-            'Responsive for both mobile and desktop use design',
+            'Responsive design for both mobile and desktop use',
             'Built with Accessibility in mind',
             'Contains features such as dynamically sizing carousels',
-        ]
+        ],
+		Skill:[
+			'HTML',
+			'JS',
+			'CSS',
+			'JQuery',
+			'Bootstrap',
+			'ADA' 
+		]
 
     },
     {
@@ -71,7 +79,14 @@ const Projects = [
         Details:[
             'Built Front/Back end of Mobile app from ground up',
             'Built Web API to talk with the mobile app.'
-        ]
+        ],
+		Skill:[
+			'Java',
+			'Android',
+			'C#',
+			'.NET',
+			'SQLite'
+		]
 
     },
 	{
@@ -94,7 +109,15 @@ const Projects = [
             'Create new sticky notes or edit old ones',
             'Freedom to choose what color note to post',
             'Created in React.js with Redux'
-        ]
+        ],
+		Skill:[
+			'React.js',
+			'React Redux',
+			'JQuery',
+			'HTML',
+			'CSS',
+			'JS'
+		]
 
     },
     {
@@ -119,7 +142,13 @@ const Projects = [
             'Backend developed with JDBC and frontend using BootStrap.',
             'Backend developed with Java Spring Framework and frontend developed with Bootstrap.',
             'MySQL used to store customer and movie rental data.'
-        ]
+        ],
+		Skill:[
+			'MySQL',
+			'Java',
+			'BootStrap',
+			'Java Spring'
+		]
 
     },
 
@@ -143,7 +172,15 @@ const Projects = [
         Details:[
             'Restful website with frontend and backend. Developed by myself',
             'Website designed to remove title and thumbnail from Youtube videos'
-        ]
+        ],
+		Skill:[
+			'Java',
+			'Java Spring',
+			'JQuery',
+			'HTML',
+			'JS',
+			'JQuery'
+		]
 
     },
     {
@@ -171,7 +208,17 @@ const Projects = [
             "MySQL 5.7, hosted on AWS DB, was used to hold large amounts of geospatial data.",
             "Python was used to parse and reduce size of data by 75% while retaining accuracy of data.",
             "Turned into a research project at Stonybrook for Spring 2018.",
-        ]
+        ],
+		Skill:[
+			'Java',
+			'Java Spring',
+			'MySQL',
+			'HTML',
+			'JS',
+			'JQuery',
+			'CSS',
+			'AWS'
+		]
 
     },
     {
@@ -191,7 +238,11 @@ const Projects = [
         Details:[
             'Made in processing with Java',
             'Generates a maze using backtracing'
-        ]
+        ],
+		Skill:[
+			'Java',
+			'Processing'
+		]
 
     },
     {
@@ -213,7 +264,11 @@ const Projects = [
             'Can be played as a normal game of snake',
             'Can be switch into AI or User modes',
             'Uses a shallow neural network to learn how to play the game'            
-        ]
+        ],
+		Skill:[
+			'Java',
+			'Processing'
+		]
 
     },
     {
@@ -236,7 +291,11 @@ const Projects = [
             'The game plays as a platformer.',
             'Using the shift key PhaseShifter can change colors.',
             'Based on his color, PhaseShifter can interact with objects of the same color.'            
-        ]
+        ],
+		Skill:[
+			'Phaser.js',
+			'JS'
+		]
 
     },
     {
@@ -257,7 +316,10 @@ const Projects = [
             'Made in C++ with QT framework',
             'Supports cut, copy, paste',
             'Supports save, saveAs, and undo/redo'
-        ]
+        ],
+		Skill:[
+			'C++'
+		]
 
     },
     {
@@ -279,7 +341,11 @@ const Projects = [
             'Made in Processing with Java',
             'Listens to input audio and displays the audio spectrum',
             'With the press of a mouse click the user can switch between visual modes'
-        ]
+        ],
+		Skill:[
+			'Java',
+			'Processing'
+		]
 
     },
     {
@@ -301,7 +367,11 @@ const Projects = [
             'Made in C# with unity.',
             'Programming done by me and art and idea created by a friend.',
             'The game is a rock paper scissors style fighting game.'
-        ]
+        ],
+		Skill:[
+			'C#',
+			'Unity'
+		]
 
     }
 ]

@@ -11,7 +11,7 @@ class ShowCase extends Component{
             return(<a href={project.SourceLink} target="_blank"><button className="btn btn-primary">View Source</button></a>);
         }else{
             return(<button className="btn btn-primary" target="_blank" disabled>View Source</button>);
-        }            
+        }             
     }
 
     projectViewButtons(project){
@@ -23,12 +23,35 @@ class ShowCase extends Component{
     }
 
     projectSection(project, i){
-        return(
+        
+		let skillPill_Colors = {
+			"HTML" : "#28A228",
+			"JS" : "#EF4836",
+			"CSS" : "#E65722",
+			"JQUERY" : "#E73C4E",
+			"BOOTSTRAP" : "#5C97BF",
+			"ADA" : "#9932CC",
+			"ANDROID" : "#16A085",
+			"C#" : "#AA5D00",
+			".NET" : "#1F3A93",
+			"SQLITE" : "#D47500",
+			"REACT.JS" : "#0F4880",
+			"REACT REDUX" : "#34415E",
+			"MYSQL" : "#D43900",
+			"JAVA SPRING" : "#03A678",
+			"AWS" : "#B8860B",
+			"PROCESSING" : "#4B5555",
+			"C++" : "#696969", 
+			"UNITY" : "#4B6A88",
+			
+		}
+				
+		return(
             <div className="col-md-4 my-3" key={i}>
                 <div className="ShowCaseImage"> 
                     <img className="img-fluid d-block mb-4 img-thumbnail" src={"../../img/projects/" + project.Img[0]} /> 
                 </div>
-                <h3 className="text-dark"><a href={"/projects/#" + project.Name}>{project.Name}</a></h3>
+                <h3 className="text-dark"><a href={"#/projects/#" + project.Name}>{project.Name}</a></h3>
                 <div className="row py-3">
                     <div className="col-md-6">
                         {this.projectSrcButtons(project)}
@@ -38,7 +61,17 @@ class ShowCase extends Component{
                     </div>
                 </div>
                 <p className="mt-1 projectBio"> {project.Description} </p>
-   
+   				<div className="showcase-SkillPills">
+					 {
+						project.Skill.map((skill, i) =>{
+							return(
+								<div key={i} className="skillPill" style={{ backgroundColor : skillPill_Colors[skill.toUpperCase()] }}>
+									{skill}
+								</div>
+							)
+						})
+					 }
+				</div>
             </div>
         );
     }
