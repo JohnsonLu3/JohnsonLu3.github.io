@@ -21,9 +21,9 @@ const Projects = [
 
     {
         id: "b0cb7f7472bb0fd781e",
-        Name: "Midtown Comics",
+        Name: "Midtown Comics Website",
         Section: Sect.WEBAPP,
-        Description: "An ecommerce website built for Midtown Comics. Designed for both desktop and mobile use. Worked with Accessibility360 to ensure a nice user experience for disabilities",
+        Description: "An ecommerce website built for Midtown Comics. Designed for both desktop and mobile use. Worked with Accessibility360 to ensure a nice user experience for all kinds of users",
         Img: [
             "midtown1.png",
 			"midtown2.png",
@@ -86,6 +86,39 @@ const Projects = [
 			'C#',
 			'.NET',
 			'SQLite'
+		]
+
+    },
+	{
+        id: "f7g9t4G9Ik75YF2WvbSm",
+        Name: "SoundBoard",
+        Section: Sect.WEBAPP,
+        Description: "An Online sound board created with React along side with a Web API developed in Node.js. I developed a sound board to use voice clips from my friend's YouTube channel. The web app sends GET request to the web API which returns the voice clips and the app then plays it in sequence. Generated lines are also sharable.",
+        Img: [
+            "SoundBoard.jpg",
+        ],
+        SourceLink: "https://github.com/JohnsonLu3/FleshmonkSoundBoard",
+        Visit: "https://johnsonlu.dev/FleshmonkSoundBoard/",
+        ShowCase: true,
+        languages:[
+            Lang.JS,
+            Lang.REACT
+        ],
+        Details:[
+            'Web App developed with React.js',
+            'Web API developed with Node.js',
+            'Server hosted on AWS',
+            'SoundBoard sends GET request to the API to get a series of voice clips',
+			'Voice clips are gathers in the API and the audio data is sent over as a response'
+        ],
+		Skill:[
+			'React.js',
+			'Node.js',
+			'JQuery',
+			'HTML',
+			'CSS',
+			'JS',
+			'AWS'
 		]
 
     },
